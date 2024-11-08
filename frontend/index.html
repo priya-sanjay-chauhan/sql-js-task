@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="dateRangeForm">
+        <label for="fromDate">From Date:</label>
+        <input type="date" id="fromDate" name="fromDate" required>
+
+        <label for="toDate">To Date:</label>
+        <input type="date" id="toDate" name="toDate" required>
+
+        <button type="submit" id="fetchDataButton" disabled>Fetch Data</button>
+
+
+    </form>
+
+    <p id="errorMessage" ></p>
+
+    <table id="dataTable" >
+        <thead>
+           
+            
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
